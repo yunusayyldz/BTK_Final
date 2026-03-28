@@ -32,6 +32,7 @@ Modelin "kara kutu" doğasını kırmak için Oyun Teorisi temelli **SHAP (SHapl
 ---<img width="1294" height="861" alt="Ekran görüntüsü 2026-03-28 160446" src="https://github.com/user-attachments/assets/d359aade-0ee2-456d-b522-7fe7b3a2c19b" />
 <img width="821" height="701" alt="Ekran görüntüsü 2026-03-28 160438" src="https://github.com/user-attachments/assets/e138c61d-2ccd-4225-bba3-be2dede45669" />
 
+## 📦 Veri : https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention
 
 ## 👨‍💻 Hazırlayan
 **Yunus Ayyıldız**
