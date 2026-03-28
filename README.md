@@ -16,17 +16,17 @@ Proje, veri sızıntısını (Data Leakage) önleyen profesyonel **Scikit-Learn 
 * Optimizasyon:** En iyi model konfigürasyonu için `GridSearchCV` ve 5-fold `StratifiedKFold` doğrulama kullanılmıştır.
 
 ## 📊 Performans ve Bulgular
-[cite_start]Model, test verisi üzerinde **%90'ın üzerinde doğruluk** (accuracy) oranına ulaşmıştır[cite: 84].
+Model, test verisi üzerinde **%90'ın üzerinde doğruluk** (accuracy) oranına ulaşmıştır.
 
-* [cite_start]**Mezuniyet Tahmini:** 442 mezun öğrenciden 423'ü (%95.7) doğru tahmin edilmiştir[cite: 78].
-* [cite_start]**Terk (Dropout) Tahmini:** 284 terk eden öğrenciden 236'sı doğru tespit edilmiştir[cite: 79].
+* **Mezuniyet Tahmini:** 442 mezun öğrenciden 423'ü (%95.7) doğru tahmin edilmiştir.
+* **Terk (Dropout) Tahmini:** 284 terk eden öğrenciden 236'sı doğru tespit edilmiştir.
 
 ### En Kritik 5 Belirleyici Faktör:
 1.  **2. [cite_start]Yarıyıl Onaylanan Krediler (%19 etki):** En güçlü mezuniyet sinyali[cite: 110, 143].
 2.  **1. [cite_start]Yarıyıl Onaylanan Krediler:** İlk dönem adaptasyon başarısı[cite: 111].
-3.  [cite_start]**Akademik Not Ortalamaları:** Kredi başarısıyla paralel seyreden etki[cite: 112].
-4.  [cite_start]**Harç Ödeme Durumu:** Finansal istikrarın akademik odaklanmaya etkisi[cite: 113, 114].
-5.  [cite_start]**Burs Durumu:** Maddi desteğin okulda kalma eğilimini artırması[cite: 115].
+3.  **Akademik Not Ortalamaları:** Kredi başarısıyla paralel seyreden etki[cite: 112].
+4.  **Harç Ödeme Durumu:** Finansal istikrarın akademik odaklanmaya etkisi[cite: 113, 114].
+5.  **Burs Durumu:** Maddi desteğin okulda kalma eğilimini artırması[cite: 115].
 
 ## 🔍 Açıklanabilirlik (XAI)
 Modelin "kara kutu" doğasını kırmak için Oyun Teorisi temelli **SHAP (SHapley Additive exPlanations)** analizi kullanılmıştır.Bu sayede modelin kararları öznitelik ağırlıkları bazında gerekçelendirilebilmektedir.
