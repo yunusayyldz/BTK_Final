@@ -29,7 +29,9 @@ Model, test verisi üzerinde **%90'ın üzerinde doğruluk** (accuracy) oranına
 ## 🔍 Açıklanabilirlik (XAI)
 Modelin "kara kutu" doğasını kırmak için Oyun Teorisi temelli **SHAP (SHapley Additive exPlanations)** analizi kullanılmıştır.Bu sayede modelin kararları öznitelik ağırlıkları bazında gerekçelendirilebilmektedir.
 
----
+---<img width="1294" height="861" alt="Ekran görüntüsü 2026-03-28 160446" src="https://github.com/user-attachments/assets/d359aade-0ee2-456d-b522-7fe7b3a2c19b" />
+<img width="821" height="701" alt="Ekran görüntüsü 2026-03-28 160438" src="https://github.com/user-attachments/assets/e138c61d-2ccd-4225-bba3-be2dede45669" />
+
 
 ## 👨‍💻 Hazırlayan
 **Yunus Ayyıldız**
